@@ -6,7 +6,7 @@ import tensorflow as tf
 pygame.init()
 pygame.font.init()
 
-model = tf.keras.models.load_model('models/num_detector')
+model = tf.keras.models.load_model('num_detector')
 
 
 screen = pygame.display.set_mode((800,600))
